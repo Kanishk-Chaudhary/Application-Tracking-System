@@ -48,3 +48,11 @@ To run this project locally:
    ```bash
    http://127.0.0.1:5000
    ```
+
+#
+
+(c) 2024 Kanishk Chaudhary
+
+All rights reserved.
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
