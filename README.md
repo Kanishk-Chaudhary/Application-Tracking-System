@@ -23,14 +23,28 @@ ATS Resume Checker is a web application built with Python and Flask that allows 
 To run this project locally:
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/your-username/resume-checker.git
    cd resume-checker
 
-2. Run the file:
+   ```
+
+2. Install all Dependancies:
+
+   ```bash
+   pip install -r requirements.txt
+
+   ```
+
+3. Run the file:
+
    ```bash
    python app.py
 
-3. Open browser and type this URL and tab enter:
+   ```
+
+4. Open browser and type this URL and tab enter:
    ```bash
    http://127.0.0.1:5000
+   ```
