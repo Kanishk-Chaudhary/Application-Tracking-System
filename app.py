@@ -32,10 +32,8 @@ def upload_resume():
     except UnicodeDecodeError:
         return jsonify({'error': 'Unable to decode file content'}), 400
 
-    # Simple keyword matching
     found_keywords = sum(1 for keyword in keywords if re.search(keyword, content, re.IGNORECASE))
     
-    # Calculate score out of 10
     total_keywords = len(keywords)
     if total_keywords > 0:
         score = (found_keywords / total_keywords) * 10
