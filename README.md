@@ -25,8 +25,8 @@ To run this project locally:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/resume-checker.git
-   cd resume-checker
+   git clone https://github.com/Kanishk-Chaudhary/Application-tracking-system.git
+   cd Application-tracking-system
 
    ```
 
